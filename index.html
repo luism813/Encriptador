@@ -1,51 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Encriptador ONE</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Encriptador ONE</title>  
-        <link rel="stylesheet" href="styles.css" >
-    </head>
-
-<body>
-    <header> 
-        <h1>Encryptor ONE</h1>
+  <body>
+    <header>
+      <h1>Encryptor ONE</h1>
     </header>
 
-        <main class="contenedor-principal">
+    <main class="contenedor-principal">
+      <section class="seccion1">
+        <div class="tarjeta num1">
+          <textarea
+            cols="35"
+            rows="10"
+            id="mensaje"
+            placeholder="Ingrese su mensaje"
+          ></textarea>
 
-            <section class="seccion1">             
-                <div class="tarjeta num1">
-                    
-                    
-                <textarea cols="35" rows="10" id="mensaje" placeholder="Ingrese su mensaje"></textarea>
+          <div class="botonencriptar">
+            <button id="encriptar">Encriptar</button>
+            <button id="desencriptar">Desencriptar</button>
+          </div>
+        </div>
+      </section>
 
-                        <div class="botonencriptar">
-                            <button id="encriptar" >Encriptar</button>
-                            <button id="desencriptar" >Desencriptar</button>
-                        </div>
-                </div>   
-            </section>
-
-            <section class="seccion2">       
-                <div class="tarjeta num2">
-                    <textarea cols="35" rows="10" id="resultado" placeholder="Resultado"></textarea>
-                        <div class="botoncopiar">
-                            <button id="copiar">Copiar</button>
-                            <button id="escuchar">Escuchar</button>
-                        </div>
-
-                </div> 
-            </section>
-
-        </main>
-            <footer>
-                
-            </footer>
-        <script src="code.js"></script> 
-    </body>
-
-
+      <section class="seccion2">
+        <div class="tarjeta num2">
+          <textarea
+            cols="35"
+            rows="10"
+            id="resultado"
+            placeholder="Resultado"
+          ></textarea>
+          <div class="botoncopiar">
+            <button id="copiar">Copiar</button>
+            <button id="escuchar">Escuchar</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="code.js"></script>
+  </body>
 </html>
